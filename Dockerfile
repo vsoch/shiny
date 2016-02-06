@@ -29,6 +29,7 @@ RUN R -e "install.packages('rpivotTable')"
 RUN R -e "install.packages('readxl')"
 RUN R -e "install.packages('tabplot')"
 RUN R -e "install.packages('ggplot2')"
+RUN R -e "install.packages('brew')"
 
 RUN cp -R /usr/local/lib/R/site-library/shiny/examples/* /srv/shiny-server/
 
