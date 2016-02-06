@@ -2,7 +2,7 @@ FROM r-base:latest
 
 MAINTAINER Vanessa Sochat "vsochat@stanford.edu"
 
-RUN apt-get update && apt-get install -y -t unstable \
+RUN apt-get update && apt-get install -y \
     sudo \
     gdebi-core \
     pandoc \
