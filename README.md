@@ -1,7 +1,7 @@
 Docker for Shiny Server
 =======================
 
-This is a Dockerfile for Shiny Server on Debian "testing". It is based on the r-base image.
+This is a Dockerfile for Shiny Server on Debian "testing". It is based on the r-base image, and has been modified to include basic dependencies to run a data explorer application.
 
 The image is available from [Docker Hub](https://registry.hub.docker.com/u/rocker/shiny/).
 
